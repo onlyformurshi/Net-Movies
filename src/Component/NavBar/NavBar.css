@@ -1,0 +1,8 @@
+.NavBar .custom-dropdown .dropdown-toggle::after {
+  color: white;
+  border-top-color: white;
+}
+
+.NavBar .active {
+  color: #D81F26 !important;
+}

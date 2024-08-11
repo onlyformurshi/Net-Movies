@@ -1,0 +1,47 @@
+/* HERO SECTION */
+
+.hero {
+    padding: 4rem 0;
+}
+
+.hero--title  {
+   font-size: 55px;
+   margin-top: 100px;
+    margin-bottom: 1rem;
+}
+
+.hero--description {
+    width: 40rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.info {
+    background-color:#808080;
+    color: white;
+}
+
+.play {
+    background-color: white;
+    color: rgb(20, 20, 20);
+}
+.hero--button {
+    font-weight: 700;
+    border: none;
+    padding: 1.1rem 2.2rem;
+    border-radius: .3rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.info:hover {
+    background-color:rgba(109, 109, 110, 0.525);
+}
+
+.play:hover {
+    background-color:  rgba(255, 255, 255, 0.777);
+}
