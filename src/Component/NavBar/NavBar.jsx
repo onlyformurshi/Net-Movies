@@ -18,7 +18,7 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link onClick={()=>setActive("home")} className={active === "home" ? "active" : "text-white"}>Home</Nav.Link>
+            <Nav.Link onClick={()=>setActive("home")} className={active === "home" ? "active" : "text-white"}>Homde</Nav.Link>
             <Nav.Link onClick={()=>setActive("tvshow")} className={active === "tvshow" ? "active" : "text-white"} >Tv & Shows</Nav.Link>
             <Nav.Link onClick={()=>setActive("new&popular")} className={active === "new&popular" ? "active" : "text-white"} >New & Popular</Nav.Link>
             <Nav.Link onClick={()=>setActive("mylist")} className={active === "mylist" ? "active" : "text-white"} >My List</Nav.Link>
