@@ -22,7 +22,7 @@ function NavBar() {
             <Nav.Link onClick={()=>setActive("tvshow")} className={active === "tvshow" ? "active" : "text-white"} >Tv Shows</Nav.Link>
             <Nav.Link onClick={()=>setActive("new&popular")} className={active === "new&popular" ? "active" : "text-white"} >New & Popular</Nav.Link>
             <Nav.Link onClick={()=>setActive("mylist")} className={active === "mylist" ? "active" : "text-white"} >My List</Nav.Link>
-            <Nav.Link onClick={()=>setActive("browsebylangouge")} className={active === "browsebylangouge" ? "active" : "text-white"} >Browse by Languages</Nav.Link>
+            <Nav.Link onClick={()=>setActive("browsebylangouge")} className={active === "browsebylangouge" ? "active" : "text-white"} >Series</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link onClick={()=>setActive("home")} className={active === "home" ? "active" : "text-white"} ><Image src={search_icon} alt="search icon" /></Nav.Link>
