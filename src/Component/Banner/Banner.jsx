@@ -13,7 +13,7 @@ function Banner({movie}) {
             <div role="banner" className="hero">
             <h1 className="hero--title">{movie?.title || movie?.name}</h1>
             <p className="hero--description">{movie?.overview}</p>
-                <button className="hero--button play"> <FontAwesomeIcon icon={faPlay} className="me-2" />Watch</button>
+                <button className="hero--button play mb-3"> <FontAwesomeIcon icon={faPlay} className="me-2" />Watch</button>
                 <button className="hero--button info"><FontAwesomeIcon icon={faCircleInfo} className="me-2" />More information</button>
             </div>
         </Container>
